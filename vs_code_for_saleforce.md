@@ -37,7 +37,7 @@ Open the Mavensmate desktop
 
 Create a new project by authenticating to your Sandbox/Dev org
 
-![alt text](https://cdn-images-1.medium.com/max/1000/1*zlNV3aFJ5PANeW8euDa04A.pngg "title")
+![alt text](https://cdn-images-1.medium.com/max/1000/1*zlNV3aFJ5PANeW8euDa04A.png "title")
 
 Select the metadatas you need and click refresh project
 
