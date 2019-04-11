@@ -14,3 +14,8 @@ and owner.name != 'InterfaceSINIARD' limit 50
 ```
 select id, entiteVisibilite__c, Profile__c  from Account where Num_abonne__c = '0018111948'
 ```
+
+### Recupérer un poin de vente
+```
+select id, horairesOuverture__c  from Point_de_vente__c where LastModifiedDate >= 2019-03-01T00:00:00+00:00
+```
