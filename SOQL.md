@@ -19,3 +19,4 @@ select id, entiteVisibilite__c, Profile__c  from Account where Num_abonne__c = '
 ```
 select id, horairesOuverture__c  from Point_de_vente__c where LastModifiedDate >= 2019-03-01T00:00:00+00:00
 ```
+select count(id), CreatedBy.Username from RaffraichementEnCours__c where Service_name__c= 'EDA'  AND CreatedDate>= 2019-04-11T00:00:00-00:00 AND CreatedDate <= 2019-04-12T00:00:00-00:00 group by  CreatedBy.Username
