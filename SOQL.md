@@ -25,3 +25,6 @@ select count(id), CreatedBy.Username from RaffraichementEnCours__c where Service
 ```
 SELECT DeveloperName,Id,Name,OwnerId FROM Report WHERE CreatedDate > 2019-04-01T23:01:01-08:00
 ```
+```
+SELECT Id,Name, Owner.Name, CreatedBy.UserRole.Name FROM Report WHERE CreatedBy.UserRole.Name = 'AGA_DIR'
+```
