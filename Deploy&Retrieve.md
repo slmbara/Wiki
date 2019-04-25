@@ -31,8 +31,8 @@ Dans les versions antérieures de l’API, si des suppressions et des ajouts son
 Pour supprimer des composants, utilisez la même procédure que pour le déploiement de composants, mais incluez également un fichier de manifeste de suppression nommé destructiveChanges.xml et répertoriez les composants à supprimer dans ce manifeste. Le format de ce manifeste est identique à package.xml, sauf que les caractères génériques ne sont pas pris en charge.
 
 Vous pouvez effectuer un déploiement qui spécifie les composants à supprimer dans destructiveChanges.xml et les composants à ajouter ou à mettre à jour dans package.xml:
-** Pour supprimer des composants avant d' ajouter ou de mettre à jour d'autres composants, créez un fichier manifeste nommé destructiveChangesPre.xml et incluez les composants à supprimer.
-** Pour supprimer des composants après avoir ajouté ou mis à jour d'autres composants, créez un fichier manifeste nommé destructiveChangesPost.xml et incluez les composants à supprimer.
+* Pour supprimer des composants avant d' ajouter ou de mettre à jour d'autres composants, créez un fichier manifeste nommé destructiveChangesPre.xml et incluez les composants à supprimer.
+* Pour supprimer des composants après avoir ajouté ou mis à jour d'autres composants, créez un fichier manifeste nommé destructiveChangesPost.xml et incluez les composants à supprimer.
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
